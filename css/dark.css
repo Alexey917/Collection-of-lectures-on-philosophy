@@ -1,0 +1,96 @@
+.nav-title,
+.nav-list-item-link,
+.next,
+.footer-list-item-link,
+.contacts-list-item-link {
+  color: rgb(239, 213, 116);
+}
+
+.epicurus-img {
+  border: 0.0625rem solid rgb(239, 213, 116);
+  box-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+}
+
+.author,
+.main-title,
+.blockquote,
+.lectures-title,
+.lectures-card-title,
+.lectures-card-text {
+  color: rgb(239, 213, 116);
+  text-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116),
+    10px 0 20px rgb(239, 213, 116);
+}
+
+.main-text {
+  border: 1px solid rgb(18, 17, 17);
+  color: rgb(239, 213, 116);
+  text-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+  box-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+  background-color: rgb(18, 17, 17);
+}
+
+.lectures-card {
+  border: 1px solid rgb(239, 213, 116);
+  background-color: rgb(18, 17, 17);
+}
+
+.footer {
+  background-color: rgb(18, 17, 17);
+}
+
+.header {
+  border-bottom: 2px solid rgba(239, 213, 116, 0.4);
+}
+
+.wrapper.night::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/night-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  z-index: -1;
+}
+
+.button-modal {
+  color: rgb(239, 213, 116);
+  border: 1px solid rgb(239, 213, 116);
+  background-color: rgb(18, 17, 17);
+}
+
+@media (min-width: 992px) {
+  .nav-list-item-link:hover,
+  .footer-list-item-link:hover,
+  .contacts-list-item-link:hover {
+    color: rgb(239, 213, 116);
+    text-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+  }
+
+  .nav-list-item:hover .nav-list-item-link {
+    border-bottom: 0.0625rem solid rgb(239, 213, 116);
+  }
+
+  .nav-list-item:hover .nav-list-item-link {
+    border-bottom: 0.0625rem solid rgb(239, 213, 116);
+  }
+
+  .next:hover {
+    color: rgb(239, 213, 116);
+    text-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116),
+      25px 0 50px rgb(239, 213, 116) 2, 100px 0 200px rgb(239, 213, 116);
+    border-bottom: 0.0625rem solid rgb(239, 213, 116);
+  }
+
+  .lectures-card:hover {
+    box-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+  }
+
+  .button-modal:hover {
+    box-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116);
+    text-shadow: 0.3125rem 0 0.625rem rgb(239, 213, 116),
+      25px 0 50px rgb(239, 213, 116), 100px 0 200px rgb(239, 213, 116);
+  }
+}

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" title="theme" href="#" />
+    <title>Философиум</title>
+  </head>
+  <body>
+    <div class="wrapper night">
+      <header class="header">
+        <div class="container">
+          <nav class="nav">
+            <div class="nav-group">
+              <a href="./" class="logo">
+                <img class="logo-img" src="img/logo.jpg" alt="logo" />
+              </a>
+              <h2 class="nav-title">Философиум</h2>
+            </div>
+            <ul class="nav-list">
+              <li class="nav-list-item">
+                <a href="index.html" class="nav-list-item-link">Главная</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="lectures.html" class="nav-list-item-link">Лекции</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="tasks.html" class="nav-list-item-link">Задания</a>
+              </li>
+              <li class="nav-list-item">
+                <a href="tests.html" class="nav-list-item-link">Тесты</a>
+              </li>
+            </ul>
+            <div class="change-theme-group">
+              <input class="input-change-theme" type="checkbox" id="theme" />
+              <label class="label-change-sun" for="theme" id="dark">
+                <svg class="sun-icon">
+                  <use href="img/sprite.svg#sun"></use>
+                </svg>
+              </label>
+              <label class="label-change-moon" for="theme" id="light">
+                <svg class="moon-icon">
+                  <use href="img/sprite.svg#moon"></use>
+                </svg>
+              </label>
+            </div>
+          </nav>
+          <!-- /.nav -->
+        </div>
+        <!-- /.container -->
+      </header>
+      <!-- /.header -->
+
+      <main class="main">
+        <section class="section">
+          <div
+            class="container background-wrapper background-wrapper-tasks background-wrapper-tests"
+          >
+            <form action="" class="questions-wrapper"></form>
+            <!-- <ol class="antiquity-list antiquity-list-task">
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Кто считается первым античным философом</span
+                >
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Гераклит</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Фалес</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Демокрит</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Какой период в античной философии называют также периодом
+                  большого синтеза?</span
+                >
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Классический</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Гуманистический</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Религиозный</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Каких вопросов в большей части касалась греческая
+                  натурфилософия?</span
+                >
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Этики и эстетики</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Логики</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text"
+                      >Космогонии и космологии</span
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Кто из этих философов относился к пифагорейцам?
+                </span>
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Алмекон Кротонский</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Кратил</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Анаксимен</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Выберите две крупнейшие сократические школы.
+                </span>
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Киники киренаики</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Платоники киники</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text"
+                      >Платоники мегеская школа</span
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text"
+                  >Представителями чьей школы являлись перипатетики?
+                </span>
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Платон</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Сократ</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">Аристотель</span>
+                  </li>
+                </ul>
+              </li>
+              <li class="antiquity-list-item">
+                <span class="antiquity-item-text">
+                  В какой период появилась философия скептицизма?
+                </span>
+                <ul class="answers-list">
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">В натурфилософский</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">В эллинический</span>
+                  </li>
+                  <li class="answers-list-item">
+                    <span class="antiquity-item-text">В гуманистический</span>
+                  </li>
+                </ul>
+              </li>
+            </ol> -->
+            <div class="test-btn-group">
+              <button class="test-btn-prev">Назад</button>
+              <button class="test-btn-next">Далее</button>
+              <a href="tests.html" class="test-btn-next test-btn-back">
+                Вернуться к тестам
+              </a>
+              <button class="test-btn-next test-btn-again">
+                Пройти заново
+              </button>
+            </div>
+          </div>
+          <!-- /.container -->
+        </section>
+        <!-- /.setion -->
+      </main>
+      <!-- /.main -->
+
+      <footer class="footer">
+        <div class="container footer-container">
+          <div class="footer-group">
+            <a href="./" class="logo">
+              <img class="logo-img" src="img/logo.jpg" alt="logo" />
+            </a>
+            <h2 class="nav-title">Философиум</h2>
+          </div>
+          <ul class="footer-list">
+            <li class="footer-list-item">
+              <a href="index.html" class="footer-list-item-link">Главная</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="lectures.html" class="footer-list-item-link">Лекции</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="tasks.html" class="footer-list-item-link">Задания</a>
+            </li>
+            <li class="footer-list-item">
+              <a href="tests.html" class="footer-list-item-link">Тесты</a>
+            </li>
+          </ul>
+          <ul class="contacts-list">
+            <li class="contacts-list-item">
+              <a href="tel:+74996861014" class="contacts-list-item-link"
+                >+7 (499) 686-10-14</a
+              >
+            </li>
+            <li class="contacts-list-item">
+              <ul class="social-list">
+                <li class="contacts-list-item">
+                  <a href="#" class="social-list-item-link">
+                    <svg class="vk-icon" width="24" height="24">
+                      <use href="img/sprite.svg#vk"></use>
+                    </svg>
+                  </a>
+                </li>
+                <li class="contacts-list-item">
+                  <a href="#" class="social-list-item-link">
+                    <svg class="inst-icon" width="24" height="24">
+                      <use href="img/sprite.svg#inst"></use>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <button class="button-modal">Получать увудомления!</button>
+        </div>
+      </footer>
+
+      <div class="modal">
+        <div class="overlay">
+          <div class="container">
+            <div class="modal-wrapper">
+              <svg class="close-icon">
+                <use href="img/sprite.svg#close"></use>
+              </svg>
+              <h3 class="modal-title">
+                Укажите имя и почту, чтобы получать уведомления о новых лекциях
+              </h3>
+              <form action="#" class="form-modal">
+                <div class="input-group-modal">
+                  <input
+                    type="text"
+                    class="input-modal"
+                    id="first-input-modal"
+                    placeholder=" "
+                  />
+                  <label for="first-input-modal" class="label-modal">Имя</label>
+                  <label
+                    for="first-input-modal"
+                    class="error-first-label"
+                  ></label>
+                </div>
+                <div class="input-group-modal">
+                  <input
+                    type="text"
+                    class="input-modal"
+                    id="second-input-modal"
+                    placeholder=" "
+                  />
+                  <label
+                    for="second-input-modal"
+                    class="label-modal second-label-modal"
+                    >Email</label
+                  >
+                  <label
+                    for="second-input-modal"
+                    class="error-second-label"
+                  ></label>
+                </div>
+                <button type="submit" class="button-in-modal">Отправить</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal send-modal">
+        <div class="overlay">
+          <div class="container">
+            <div class="modal-wrapper">
+              <svg class="close-icon">
+                <use href="img/sprite.svg#close"></use>
+              </svg>
+              <h3 class="modal-title">Мы отправили письмо на вашу почту!</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /.wrapper -->
+    <script src="js/theme.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/antiquity-test.js"></script>
+  </body>
+</html>
