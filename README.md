@@ -1,1 +1,1 @@
-# final-work
+# Collection of lectures on philosophy
